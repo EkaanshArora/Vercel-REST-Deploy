@@ -1,4 +1,6 @@
 # Node - Vercel Login and deploy
+Quick and dirty POC to login using Vercel API fetch token and use it to deploy a template html with custom data.
+
 ### login.js
 - Edit line 3 to add your email 
 - Run `node login.js`
