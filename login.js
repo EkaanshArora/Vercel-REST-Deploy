@@ -17,7 +17,7 @@ async function x() {
       headers: headers,
       body: dataString
     };
-
+    console.log("Logging in...")
     function callback(error, response, body) {
       if (!error && response.statusCode == 200) {
         console.log(body);

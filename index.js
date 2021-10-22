@@ -7,6 +7,7 @@ let username = '';
 async function x() {
   try {
     /* Create from Template */
+    console.log("Creating template...");
     fs.readFile('./template/index.html', 'utf-8', function (err, data) {
       if (err) throw err;
       var newValue = data.replace(/%NAME%/g, username);
